@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+#omake{
+	display:none;
+	width:60%;
+	text-align:center;
+	position:fixed;
+	z-index:999;
+	margin:0 20%;
+	top:38%;
+	padding:8px 0 5px 0;
+	background-color:#FFFFFF;
+	border-radius:5px;
+	font-size:16px;
+	box-shadow:0 0 10px #000000;
+}
+
+#cancel{
+	padding-right:8px;
+	float:right;
+}
+.touch{
+	position:fixed;
+	z-index:999;
+	width:100%;
+	top:78%; 
+}
+#touch{
+	float:right;
+	width:50px;
+}
+#omake_weixin{
+	clear:both;
+	width:100%;
+	font-size:24px;
+	background-color:#22C7A0;
+	color:#FFFFFF;
+	border-radius:3px;
+	padding:0 5px;
+}
+
+#omake_weixin2{
+	clear:both;
+	width:100%;
+	font-size:24px;
+	background-color:#057712;
+	color:#FFFFFF;
+	border-radius:3px;
+	padding:0 5px;
+	margin-bottom:10px;
+}
+
+
+button{
+	margin:0 0 10px 0;
+	border-radius:2px;
+	border-style:none;
+	background-color:#22C7A0;
+	color:#FFFFFF;
+	font-weight:bold;
+
+}
+
+.button2{
+	margin:15px 0 10px 0;
+	border-radius:2px;
+	border-style:none;
+	background-color:#057712;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:3px 4px;
+}

@@ -1,0 +1,262 @@
+.ellipsis-ul li a {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.spacing {
+	border-top: 10px solid #E3E3E7;
+}
+/* ====================== search */
+.search {
+	overflow: hidden;
+	margin: 20px 0;
+}
+/* ====================== titles */
+.titles {
+	height: 44px;
+	overflow: hidden;
+	line-height: 44px;
+	border-bottom: 1px solid #07B3E3;
+	position: relative;
+}
+.titles h2 {
+	float: left;
+	font-size: 18px;
+	text-indent: 12px;
+}
+/* ====================== list */
+.list {
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.list li {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.list li a {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 1px 12px 1px 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	position: relative;
+}
+.list li a:after {
+	content: "";
+	width: 2px;
+	height: 2px;
+	margin-top: -1px;
+	background: #363636;
+	position: absolute;
+	left: 12px;
+	top: 50%;
+}
+.list li a:active {
+	background-color: #f2f2f2;
+}
+/* ====================== all: sub */
+.sub {
+	overflow: hidden;
+	padding: 0 6px;
+}
+.sub p {
+	font-size: 14px;
+	line-height: 40px;
+	color: #999;
+}
+.sub p a {
+	display: inline-block;
+	padding: 0 6px;
+	color: #999;
+}
+.sub p a:active {
+	background-color: #f2f2f2;
+}
+/* ====================== all: tiezi */
+.tiezi-title {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 12px 0 42px;
+	border-top: 1px solid #E3E3E7;
+	border-bottom: 1px solid #E3E3E7;
+	position: relative;
+}
+.tiezi-title .zt {
+	width: 20px;
+	padding: 10px 5px;
+	text-align: center;
+	line-height: 16px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: -1px;
+}
+.tiezi-title .zt i {
+	display: block;
+}
+.tiezi-title .zt2 {
+	background: #1FBAE6;
+}
+.tiezi-title h1 {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.tiezi-title .about {
+	overflow: hidden;
+	font-size: 12px;
+	color: #999;
+}
+.tiezi-title .about .msg {
+	float: left;
+}
+.tiezi-title .about .time {
+	float: right;
+}
+.tiezi-ps {
+	box-sizing: border-box;
+	text-align: justify;
+	text-justify: distribute;
+}
+.tiezi-ps img{
+}
+.tiezi-ps i {
+	color: #999;
+}
+.tiezi-ps a {
+	padding: 0 5px;
+	text-decoration: underline;
+	color: #0099E3;
+}
+.tiezi-as .ys-tool cite {
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+}
+.tiezi-qs {
+	padding: 10px 5px 0;
+}
+.tiezi-as {
+	width: 100%;
+}
+.tiezi-as .ys {
+	width: 100%;
+	position: relative;
+}
+.tiezi-as .ys-msg {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px 12px 12px;
+}
+.tiezi-as .ys-msg img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+.tiezi-as .ys-msg span {
+	float: left;
+	width: 40%;
+	min-height: 40px;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 40px;
+	margin-top: 2px;
+}
+.tiezi-as .ys-msg span i {
+	margin-left: 6px;
+	font-size: 12px;
+	color: #666;
+}
+.tiezi-as .ys-msg span cite {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	color: #666;
+	margin-top: 2px;
+}
+.tiezi-as .tiezi-ps {
+	padding: 0 12px;
+}
+.tiezi-as .ys-tool {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #E3E3E7;
+	border-bottom: 1px solid #E3E3E7;
+	line-height: 34px;
+	text-align: center;
+	margin-top: 10px;
+}
+.tiezi-as .ys-tool a {
+	font-weight: normal;
+	color: #1FBAE6;
+}
+.tiezi-as .ys-tool cite {
+	color: #999;
+}
+.tiezi-as .ys-tool .up {
+	float: left;
+	width: 40%;
+	position: relative;
+}
+.tiezi-as .ys-tool .up:after {
+	content: "";
+	width: 0;
+	height: 12px;
+	margin-top: -6px;
+	border-left: 1px solid #E3E3E7;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.tiezi-bs {
+	width: 100%;
+}
+.tiezi-bs-titles {
+	width: 100%;
+	height: 32px;
+	margin-top: 10px;
+	line-height: 32px;
+}
+.tiezi-bs-titles h2 {
+	float: left;
+	height: 100%;
+	padding-right: 28px;
+	font-size: 18px;
+	text-indent: 12px;
+	color: #fff;
+	position: relative;
+}
+.tiezi-bs-titles h2:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-right-color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.tiezi-bs-titles h2.t2 {
+	background: #77C182;
+}
+.tiezi-bs .list {
+	padding-top: 10px;
+}
+.tiezi-bs .list li {
+	border-bottom: 1px dotted #E3E3E7;
+	line-height: 36px;
+}
+.tiezi-bs .list li:nth-of-type(n+6) {
+	display: none;
+}
+
+
+
+
+
